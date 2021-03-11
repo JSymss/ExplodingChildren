@@ -30,6 +30,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateEditor
     - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
@@ -69,33 +70,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11292}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11580}
+      Script: {instanceID: 11582}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11636}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11724}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11782}
     - Class: 114
-      Script: {instanceID: 11912}
+      Script: {instanceID: 11914}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13356}
     - Class: 114
-      Script: {instanceID: 13490}
+      Script: {instanceID: 13492}
     - Class: 114
-      Script: {instanceID: 13674}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 13776}
+      Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 13998}
+      Script: {instanceID: 14000}
     - Class: 114
-      Script: {instanceID: 14392}
+      Script: {instanceID: 14394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -136,33 +137,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11292}
+      Script: {instanceID: 11294}
     - Class: 114
-      Script: {instanceID: 11580}
+      Script: {instanceID: 11582}
     - Class: 114
-      Script: {instanceID: 11634}
+      Script: {instanceID: 11636}
     - Class: 114
-      Script: {instanceID: 12306}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12358}
+      Script: {instanceID: 12360}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 13354}
+      Script: {instanceID: 13356}
     - Class: 114
-      Script: {instanceID: 13374}
+      Script: {instanceID: 13376}
     - Class: 114
-      Script: {instanceID: 13674}
+      Script: {instanceID: 13676}
     - Class: 114
-      Script: {instanceID: 13776}
+      Script: {instanceID: 13778}
     - Class: 114
-      Script: {instanceID: 14056}
+      Script: {instanceID: 14058}
     - Class: 114
-      Script: {instanceID: 14162}
+      Script: {instanceID: 14164}
     - Class: 114
-      Script: {instanceID: 14226}
+      Script: {instanceID: 14228}
     - Class: 114
-      Script: {instanceID: 14392}
+      Script: {instanceID: 14394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -712,4 +713,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: D:/SAE/21T1/GDS210/Exploding Children/Build/Exploding Children.exe
+  playerPath: D:/SAE/21T1/GDS210/Unity Projects/Builds/Exploding Children 2.0/Exploding
+    Children.exe

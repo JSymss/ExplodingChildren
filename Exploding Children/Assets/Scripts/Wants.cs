@@ -67,21 +67,22 @@ public class Wants : MonoBehaviour, IDropHandler
             };
             if(CorrectItems >= WinCond )
             {
-                animator.SetTrigger("Win");
-                Timer.pauseTimer = true;
-                restartButton.SetActive(true);
-                youWin.text = "You Win";
-                DragDrop.paused = true;
+                if (animator.GetBool("childExploding") == false)
+                {
+                    animator.SetBool("Win",true);
+                    Timer.pauseTimer = true;
+                    restartButton.SetActive(true);
+                    youWin.text = "You Win";
+                    DragDrop.paused = true;
+                }
             }
         }
-        Debug.Log(wantColour);
-        Debug.Log(wantType);
 
     }
     public void OnDrop(PointerEventData eventData)
     {
         Debug.Log("OnDrop");
-        if (eventData.pointerDrag != null)
+        if (eventData.pointerDrag != null && DragDrop.paused == false) 
         {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
             eventData.pointerDrag.SetActive(false);

@@ -35,10 +35,13 @@ public class Timer : MonoBehaviour
 
             if (t >= 10)
             {
-                animator.SetBool("childExploding", true);
-                restartButton.SetActive(true);
-                youLose.text = "You Lose";
-                DragDrop.paused = true;
+                if (animator.GetBool("Win") == false)
+                {
+                    animator.SetBool("childExploding", true);
+                    restartButton.SetActive(true);
+                    youLose.text = "You Lose";
+                    DragDrop.paused = true;
+                }
             }
             //Stop counting if time is at 10 seconds
             if (Time.time - startTime >= 10)
